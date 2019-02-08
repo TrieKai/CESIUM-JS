@@ -179,7 +179,6 @@ function load(promise){
 }
 
 /*共管資料*/
-/*
 $.getJSON('http://dig.taichung.gov.tw/json_link/easygo_data.aspx', function (data) {
 	console.log(data.length)
 	console.log(data[0])
@@ -202,7 +201,6 @@ $.getJSON('http://dig.taichung.gov.tw/json_link/easygo_data.aspx', function (dat
 		});
 	}
 });
-*/
 
 /*地標資料*/
 $.getJSON('重要地標.geojson', function (data) {
